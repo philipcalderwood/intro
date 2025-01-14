@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="G(_QCv~j.5}#YRJ%,L`o">value</variable><variable id="k60NxJ8e!!Oo7;=ASgf]">list</variable></variables><block type="device_button_event" id="iYZP),QEkS@(?Oe(MvS^" x="355" y="-171"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="music_playable_play" id="UL@)A2e-g[e2xst6llW:"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_string_playable" id="tAg#)0UdG7kbq*P2nHVQ"><value name="melody"><shadow type="melody_editor" id="Pri8+:}IA)~:[gQtW{%#"><field name="melody">"B F B F B F B F "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="}r7X6~k`OIQ)8in)Mw2C"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow><block type="music_tone_playable" id="T:iaH_Xa,`8?QP9q$~3e"><value name="note"><shadow type="device_note" id="rC,O/({cD?Uqiqu@5i=k"><field name="name">440</field></shadow></value><value name="duration"><shadow type="device_beat" id="1woKLvPku5GXr!zoap~%"><field name="fraction">BeatFraction.Whole</field></shadow></value></block></value><next><block type="music_playable_play" id="MCON1n.E0b/q0f}:?Fq$"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="@pZ0c*Fk~D78[Qe7u+`b"><field name="soundExpression">soundExpression.slide</field></shadow></value></block></next></block></statement></block><block type="pxt-on-start" id="|WS$m2:q~7iiuVq_Js33" x="0" y="0"><statement name="HANDLER"><block type="device_set_brightness" id="a]r1d%-dev7,ZuCTJnS."><value name="value"><shadow type="math_number_minmax" id="=(CT=F7LT;qI~[Pq!)#,"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><next><block type="device_show_leds" id=")o2/L):q$]*WCd5Aq#@7"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></next></block></statement></block><block type="device_button_event" id="r/vXfw~{7,4:7{vtl!AW" x="247" y="204"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_while" id="*9|6KT%UWs}#{+$03oi2"><value name="COND"><shadow type="logic_boolean" id="a;2Xy%,J0Z%aToNKfg(d"><field name="BOOL">TRUE</field></shadow></value><statement name="DO"><block type="controls_repeat_ext" id="B7{*-D3t4(^B4G*3b}N)"><value name="TIMES"><shadow type="math_whole_number" id="]E{yeTSR4EBl;rDk/Pby"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="device_show_leds" id="R(6;tc?dV/EU/4Dm_7lf"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="F1CjR=Wl#xXYQr*?)yf3"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement><next><block type="device_show_leds" id="D|nwa{ju!|]:K(cte48n"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_pause" id="=jgea?03+4pHt4BO-nmp"><value name="pause"><shadow type="timePicker" id="Y,pi[Myn#dw}zA?9ZwL#"><field name="ms">1000</field></shadow></value></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id=",H_psRD7yL1MvqQuH*%*" x="614" y="367"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_plot" id="iEmFPv]9bfb@ofI5#voV"><value name="x"><shadow type="math_number_minmax" id=")wg]/YX};zV`0g[8W[,_"><mutation min="0" max="4" label="X" precision="1"></mutation><field name="SLIDER">2</field></shadow></value><value name="y"><shadow type="math_number_minmax" id="B4i;x02s^6LM8TnHmIn)"><mutation min="0" max="4" label="Y" precision="1"></mutation><field name="SLIDER">1</field></shadow></value><next><block type="music_stop_all_sounds" id="*^6kaX5VC%n{@H4agifL"><next><block type="device_set_brightness" id="_/x(1Lf4D2$4VM=/(+*O"><value name="value"><shadow type="math_number_minmax" id="RwA$p1mZ)X(?lYF~51,h"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">255</field></shadow></value></block></next></block></next></block></statement></block></xml>
